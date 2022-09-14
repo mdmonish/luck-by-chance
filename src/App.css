@@ -1,0 +1,80 @@
+.App{
+  text-align: center;
+  border: 3px solid;
+  background-color: antiquewhite;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px 20px;
+}
+
+.dices{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+
+.dice{
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  box-shadow:aliceblue;
+}
+.dot{
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  background-color: black;
+}
+
+.one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.two{
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;;
+}
+.two .dot:nth-of-type(2){
+  align-self: flex-end;
+}
+.three{
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.three .dot:nth-of-type(2){
+  align-self: center;
+}
+.three .dot:nth-of-type(3){
+  align-self: flex-end;
+}
+.four{
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.space{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.winner{
+  width: 400px;
+  height: 120px;
+  margin-top: 0;
+  margin-right: 10px;
+  border: 3px solid red;
+}
