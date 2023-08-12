@@ -2,6 +2,6 @@
 - This project is built using HTML, CSS, and React.
 
 # About
-- Test your luck by rolling the dice. It's a game, you vs computer. If the outcome lies in your selected predict you will win else the computer will win.
+- Test luck by rolling the dice. The winner will be declared if the outcome lies in the predicted declared range.
 
 [Live Demo](https://luck-by-chance-md.netlify.app/)
